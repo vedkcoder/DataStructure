@@ -116,11 +116,26 @@ void deleteSpecific(char key[20],struct node *x)
 void insert_list()
 {
     char name[20];
-    strcpy(name,"chips");
+    strcpy(name," Lays chips");
     insertEnd(20,name,list);
-    strcpy(name,"cold drinks");
-    insertEnd(30,name,list);
-
+    strcpy(name,"Pepsi");
+    insertEnd(45,name,list);
+    strcpy(name,"Santoor soap");
+    insertEnd(25,name,list);
+    strcpy(name," Chetan bhagat novel");
+    insertEnd(500,name,list)'
+    strcpy(name,"T-shirt");
+    insertEnd(1000,name,list);
+    strcpy(name," Rolex watch");
+    insertEnd(40000,name,list);
+    strcpy(name,"Washing machine");
+    insertEnd(20000,name,list);
+    strcpy(name,"Asus ROG phone 2");
+    insertEnd(70000,name,list);
+    strcpy(name,"Alienware laptop");
+    insertEnd(400000,name,list);
+    strcpy(name,"XBOX One X");
+    insertEnd(40000,name,list);
 }
 void traverse(struct node *x)
 {
